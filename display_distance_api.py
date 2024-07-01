@@ -48,7 +48,7 @@ def distance():
 
     distance = (TimeElapsed * 34300) / 2
 
-    return distance
+    return   round(distance, 1)
 
 @app.route('/distance', methods=['GET'])
 def get_distance():
